@@ -36,14 +36,14 @@ public class Cube extends Shape {
     @Override
     public double surfaceArea() {
 
-        return 6 * (width * width);
+        return 6 * width * width;
 
     }
 
     @Override
     public double volume() {
 
-        return width * width * width;
+        return Math.pow(width, 3.0);
 
     }
 

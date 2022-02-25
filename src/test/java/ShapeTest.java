@@ -12,7 +12,7 @@ public class ShapeTest {
 
     @Test
     public void testSphereVolume(){
-        Sphere ball = new Sphere(15);
+        Sphere ball = new Sphere(15.0);
         Assertions.assertEquals(
                 14137.166941154068,
                 ball.volume());
@@ -20,7 +20,7 @@ public class ShapeTest {
 
     @Test
     public void testSphereSurfaceArea(){
-        Sphere ball = new Sphere(15);
+        Sphere ball = new Sphere(15.0);
         Assertions.assertEquals(
                 2827.4333882308138,
                 ball.surfaceArea());
@@ -28,7 +28,7 @@ public class ShapeTest {
 
     @Test
     public void testCubeSurfaceArea(){
-        Cube box = new Cube(15);
+        Cube box = new Cube(15.0);
         Assertions.assertEquals(
                 1350.0,
                 box.surfaceArea());
@@ -36,7 +36,7 @@ public class ShapeTest {
 
     @Test
     public void testCubeVolume(){
-        Cube box = new Cube(15);
+        Cube box = new Cube(15.0);
         Assertions.assertEquals(
                 3375.0,
                 box.volume());
@@ -44,7 +44,7 @@ public class ShapeTest {
 
     @Test
     public void testCylinderSurfaceArea(){
-        Cylinder can = new Cylinder(15, 5);
+        Cylinder can = new Cylinder(15.0, 5.0);
         Assertions.assertEquals(
                 628.3185307179587,
                 can.surfaceArea());
@@ -52,7 +52,7 @@ public class ShapeTest {
 
     @Test
     public void testCylinderVolume(){
-        Cylinder can = new Cylinder(15, 5);
+        Cylinder can = new Cylinder(15.0, 5.0);
         Assertions.assertEquals(
                 628.3185307179587,
                 can.surfaceArea());
@@ -60,7 +60,7 @@ public class ShapeTest {
 
     @Test
     public void testTorusSurfaceArea(){
-        Torus poolFloat = new Torus(5, 20);
+        Torus poolFloat = new Torus(5.0, 20.0);
         Assertions.assertEquals(
                 3701.101650408509,
                 poolFloat.surfaceArea());
@@ -68,7 +68,7 @@ public class ShapeTest {
 
     @Test
     public void testTorusVolume(){
-        Torus poolFloat = new Torus(5, 20);
+        Torus poolFloat = new Torus(5.0, 20.0);
         Assertions.assertEquals(
                 3701.101650408509,
                 poolFloat.surfaceArea());

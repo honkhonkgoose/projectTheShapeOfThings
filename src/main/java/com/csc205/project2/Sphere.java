@@ -30,12 +30,12 @@ public class Sphere extends Shape {
 
     public double surfaceArea() {
 
-        return 4.0 * Math.PI * Math.pow(radius, 2);
+        return 4.0 * Math.PI * Math.pow(radius, 2.0);
     }
 
     public double volume() {
 
-        return (4.0/3.0) * Math.PI * Math.pow(radius, 3);
+        return (4.0/3.0) * Math.PI * Math.pow(radius, 3.0);
     }
 
     @Override

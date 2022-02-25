@@ -24,13 +24,13 @@ public class Torus extends Shape{
     @Override
     public double surfaceArea() {
 
-        return  Math.pow(Math.PI, 2) * (outerRadius-innerRadius) * (outerRadius+innerRadius);
+        return  Math.pow(Math.PI, 2.0) * (outerRadius - innerRadius) * (outerRadius + innerRadius);
     }
 
     @Override
     public double volume() {
 
-        return 0.25 * Math.pow(Math.PI, 2)  * Math.pow((outerRadius-innerRadius) , 2) * (outerRadius+innerRadius);
+        return 0.25 * Math.pow(Math.PI, 2.0)  * Math.pow((outerRadius-innerRadius) , 2.0) * (outerRadius + innerRadius);
     }
 
     //Getters & Setters
